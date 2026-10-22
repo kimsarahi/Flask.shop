@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>tovar qosiw </h1> 
+   <from action="{{url_for('add_pr')}}"
+   method="post"
+   enctype="multipart/form-data">
+   <label >tovardin ati</label>
+   <input type="text"name="product">
+   <br><br>
+   <label >tovardincenasi</label>
+   <input type="number"name="price">
+   <br><br>
+   <label >tovar haqqinda</label>
+   <input type="text"name="dicription">
+   <br><br>
+   <label tovar fotosi></label>
+   <input type="file" name="image"accept="image/*">
+   <button type="submit"> qosiw  </button>
+
+  </from>
+</body>
+</html>
